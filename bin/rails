@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+APP_PATH = File.expand_path("../config/application", __dir__)
+require_relative "../config/boot"
+require "rails/commands"
+devise_jwt_secret: '8422a2b7b681fcbdc928c228320ef8e7fe515ad74fe4d66ad4be03c66ae9540eb3d29b3cb89ab7d03850b97c4dce82fcb598ce5460ba46391ff1628b3cf71220'
